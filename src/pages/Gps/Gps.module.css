@@ -1,0 +1,228 @@
+@import "../../vars.css";
+
+*{
+    border: 1px solid gren;
+}
+
+.header{
+    width: 100%;
+     background-color:aliceblue;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0px;
+     justify-self: center;
+    height: 515px;
+    top: 185px;
+
+
+}
+.header .container{
+    height: 715px;
+    width: 100%;
+    justify-self: center;
+    background-image: linear-gradient(
+        90%,
+        #edf6f7 0%,
+        #2384a7 100%
+    );
+    background-color: var(--color-bg);
+    justify-content: center;
+}
+.main{
+    background-color: aliceblue;
+}
+.main section{
+    width: 90%;
+    justify-self: center;
+    min-height: 100px;
+}
+.main .section1 .container{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.section1 .container .containerItems{
+    flex-grow: 1;
+    height: 300px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    padding: 5px;
+    line-height: 30px;
+    align-items: flex-start;
+}
+.section1 .container .containerItems p{
+   line-height: 30px;
+   color: rgba(0,0,0,0.43);
+}
+.section1 .container .containerItems h1{
+    font-weight: 800;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.958);
+ }
+.section1 .container .containerItems img{
+    max-width: 100%;
+    height: 100%;
+}
+.containerItems .gpsBtn{
+    position: relative;
+    top: 10%;
+    outline: none;
+    border: none;
+    width: 300px;
+    background-color: var(--color-btn);
+    height:50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+.containerItems .gpsBtn:hover{
+    
+    background-color: white;
+    height:50px;
+    color:black;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+.section{
+    margin-top: 10px;
+    border-top: 0.5px solid rgba(0,0,0,0.1);
+}
+.section .container {
+
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 40px;
+}
+.section .container .containerItem{
+    height: 300px;
+    background-color:white;
+}
+.categoryDescription{
+    color: rgba(0,0,0,0.43);
+    width: 50%;
+}
+.categoryTitle{
+    font-weight: 800;
+
+}
+
+section .containerItem{
+    overflow: hidden;
+    max-width: 100%;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+  
+}
+section .containerItem img{
+    max-width: 100%;
+    height: 100%;
+
+}
+.containerItem:hover{
+    margin-top: -5px;
+      transition: 0.5s ease-in-out;
+}
+section .visitDeviceCategory{
+    width: 50%;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    height: fit-content;
+    padding: 10px;
+}
+.visitDeviceCategory .visitCategoryBtn{
+    width: fit-content;
+    padding:15px;
+    justify-self: center;
+    background-color: var(--color-btn);
+    color: white;
+    border: none;
+    outline: none;
+    height: 40px !important;
+    border-radius: 13px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.visitCategoryBtn a{
+    color: white;
+    text-decoration: none;
+}
+.visitDeviceCategory .visitCategoryBtn:hover
+.visitDeviceCategory .visitCategoryBtn:focus{
+    
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 13px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+@media screen and (max-width:830px) {
+    
+    .main .section1 .container{
+        width: 100%;
+        display: block;
+        gap: 2px;
+    }
+    .section2 .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+   }
+   .section3 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+   }
+   .section4 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+   }
+   .section5 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+   }
+   .section6 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+   }
+   section .visitDeviceCategory{
+    width: 100%;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    height: fit-content;
+}
+.visitDeviceCategory .visitCategoryBtn{
+    width: 100%;
+    justify-self: center;
+    background-color: var(--color-btn);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 2px;
+}
+.section .container .containerItem{
+    height: fit-content;    
+}
+.categoryDescription{
+     font-size: small;
+     width: 100%;
+}
+.gpsBtn{
+    width: 100%;
+}
+}

@@ -1,0 +1,314 @@
+@import "../../vars.css";
+
+.header{
+
+     width: 100%;
+     background-color:aliceblue;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0px;
+     justify-self: center;
+    height: 515px;
+    top: 185px;
+
+}
+.header .container{
+    height: 715px;
+    width: 90%;
+    justify-self: center;
+    background-image: linear-gradient(
+        90%,
+        #edf6f7 0%,
+        #2384a7 100%
+    );
+    background-color: var(--color-bg);
+    
+}
+.header.container img{
+    width:inherit;
+    height:inherit;
+}
+.container .overLay{
+    position: relative;
+    /* align-self: center;
+    top:70px;
+    left: 50px;
+    height:350px;
+    width: 600px;
+    background-color: rgba(189, 194, 197, 0.3);
+    z-index:1;
+    border-left:2px solid white; */
+
+    width: 714px;
+    height: 315px;
+    top: 100px;
+    left: 105px;
+    gap: 0px;
+    border: 0px 0px 0px 4px;
+    opacity: 0px;
+    background-color: rgb(12, 14, 15);
+    border-left: 4px solid #FFFFFF;
+    padding:25px
+}
+.overLay h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 49.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#FFFFFF
+}
+
+.overLay p{
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:white;
+}
+
+.main{
+    background-color: aliceblue;
+}
+.section1{
+    width: 90%;
+min-height: 718px;
+top: 946px;
+left: 90px;
+gap: 10px;
+border: 1px 0px 1px 0px;
+opacity: 0px;
+justify-self: center;
+background-color:rgb(255, 255, 255);
+display: flex;
+}
+.label{
+    text-align: center;
+font-weight: 900;
+line-height: 46.34px;
+letter-spacing: 0.05em;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+
+}
+.section1 .container{
+    min-height: 200px;
+    flex-grow: 1;
+    padding: 40px;
+width:200px;
+font-size: 11px;
+font-weight: 300;
+letter-spacing: 0.05em;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.section1 .container p{
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    line-height: 20px;
+    width: 100%;
+
+}
+
+.sectionBreaker{
+    height: 152px;
+    width: 100%;
+    background-image: linear-gradient(
+        90deg,
+        #000000 10%,
+        #4d4c4c 30%,
+         #000000 60%
+    );
+    background-color: var(--color-bg);
+    color: var(--color-text);
+   display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-size: 42px;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    letter-spacing: -0.015em;
+
+}
+.section2{
+    width:100%;
+    min-height: 718px;
+    justify-items: center;
+    align-items: center;
+    display:flex;
+top: 1870px;
+padding: 120px 112px 120px 112px;
+gap: 30px;
+
+
+}
+.section2 .container{
+    width: 389.33;
+height: 188px;
+padding: 32px;
+gap: 16px;
+border-radius: var(--btn-radius);
+border: 1px 0px 0px 0px;
+opacity: 0px;
+flex-grow: 1;
+border: var(--border-thin);
+
+}
+.section2 .container h1{
+    
+font-size: 60px;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: 0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--color-dark);
+
+}
+.section2 .container p{
+    
+font-size: 20px;
+font-weight: 900;
+line-height: 32px;
+letter-spacing: 0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.section3{
+    margin-top:20px;
+    width: 90%;
+min-height: 548px;
+justify-self: center;
+align-items: center;
+border: 1px solid rgba(0,0,0,0.1);
+padding: 5px;
+
+}
+.section3 h1{
+ 
+    text-align: center;
+font-size: 50px;
+font-weight: 900;
+text-align: center;
+}
+.section3 .container{
+    position: relative;
+    display: flex;
+    width: 100%;
+height: 226px;
+gap: 20px;
+opacity: 0px;
+
+
+}
+.section3 .container .containerItems{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: var(--btn-radius);
+border:1px solid rgba(0,0,0,0.1)
+
+}
+.section3 .container .containerItems h1{
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+
+
+}
+.containerItems p{
+    
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #666872;
+
+}
+@media screen and (max-width: 830px)  {
+    .header .container{
+        height: 315px;
+        width: 100%;
+        justify-self: center;
+        background-image: linear-gradient(
+            90%,
+            #edf6f7 0%,
+            #2384a7 100%
+        );
+        background-color: var(--color-bg);
+        justify-content: center;
+    }
+
+        .container .overLay{
+            width: inherit;
+            height: 315px;
+            top: 0px;
+            left: 4px;
+            opacity: 0px;
+            padding:25px;
+            
+        }
+        .overLay p{
+            line-height: 17px;
+            font-size: 15px;
+        }
+
+        .section1{
+            width: 100%;
+            min-height: 518px;
+            justify-self: center;
+            display: flex;
+            flex-direction: column;
+        }
+      .section1 .container{
+         width: 100%;
+        }
+        .section2{
+            display:flex;
+            flex-direction: column;
+            gap: 2px;
+            padding: 10px;
+            min-height:500px;
+        }
+        .section2 .container{
+            width:100%;
+        text-align: center;
+        justify-content: center;
+
+        }
+        .section3{
+            margin-top: 10em;
+            padding-top: 20px;
+            width: 100%;
+            height: fit-content;
+            justify-self: center;
+            padding: 0px;
+        
+        }
+        .sectionBreaker{
+            height: 100px;
+        }
+       
+}
+
+

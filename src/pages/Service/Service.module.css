@@ -1,0 +1,379 @@
+@import "../../vars.css";
+
+.header{
+    width: 100%;
+     background-color:rgb(1, 5, 10);
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0px;
+     justify-self: center;
+    height: 515px;
+    top: 185px;
+     background-image: url("C:/Users/REPLAY CODE/Desktop/allreact/CODE/MEGAWHEELS/assets/main/serviceHeader.png");
+
+}
+.pageTitle{
+    position: relative;
+   font-weight: 700;
+   z-index: 1;
+   color: white;
+   top: 50%;
+}
+.header .container{
+    height: 715px;
+    width: 100%;
+    justify-self: center;
+    background-image: linear-gradient(
+        90%,
+        #edf6f7 0%,
+        #2384a7 100%
+    );
+    background-color: rgba(0, 0, 0, 0.489);
+    justify-content: center;
+}
+.header .container .containerItem{
+    position: relative;
+    bottom: -50%;
+    background-color: var(--color-btn);
+    height: 200px;
+    width: 90%;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 50px 0px 50px 0px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.containerItem .itemList{
+    
+    width:90%;
+}
+.containerItem .itemList h5{
+    font-weight: 900;
+
+}
+.containerItem .itemList p{
+    width: 80%;
+    line-height: 30px;
+    color: #edf6f7bc;
+}
+.main{
+    background-color: aliceblue;
+}
+.main .section1 {
+    min-height:400px;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    width: 100%;
+
+}
+.main .section1 .searchContainer{
+    border: 0.5px solid rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    justify-self: center;
+    background-color: transparent;
+    font-size: larger;
+}
+.searchContainer .searchInput{
+     outline: none;
+     border: none;
+     color: rgba(0, 0, 0, 0.548);
+     height: 50px;
+
+     width: 700px;
+     background-color: transparent;
+}
+.searchContainer .searchBtn{
+     border-radius: 10px;
+     background-color: var(--color-btn);
+     border:none;
+     outline: none;
+     float: end;
+     color: white;
+     font-weight: 600;
+     height:50px;
+     box-shadow: 0 1px 2em 2px rgba(0,0,0,0.3);
+     cursor: pointer;
+}
+.main .titleContainer{
+    height: 150px;
+    align-content: center;
+    text-align: center;
+}
+.main .categoryTitle{
+    text-align: center;
+    font-weight: 800;
+}
+.main .section2{
+    margin-top: 0px;
+    min-height: 400px;
+    width:90%;
+    justify-self: center;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+
+}
+.main .section2 .serviceItem{
+    width:349px;
+    min-height:462px;
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    font-weight:900;
+    display: block;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+.serviceItem .serviceItemImage{
+    height: auto;
+    width: 100%;
+}
+.serviceItem h4{
+    position: relative;
+    bottom:-1px
+}
+.main .section3{
+    margin-top: 0px;
+    min-height: 500px;
+    width:100%;
+    justify-self: center;
+    border: 0.5px solid rgba(0,0,0,0.1);
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    padding-top: 20px;
+     align-items: center;
+
+}
+
+.main .section3 .serviceItem{
+     width:60%;
+     justify-self:center;
+     line-height:45px;
+    height:400px;
+    background-color:transparent;    
+}
+
+.section3 .serviceItem p{
+    color:rgba(0, 0, 0, 0.548);
+    font-weight: 500;
+}
+.section3 .serviceItem .exploreBtn{
+    background-color: var(--color-btn);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    width: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.section3 .serviceItem .exploreBtn:hover,
+.section3 .serviceItem .exploreBtn:focus{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+
+}
+.section3 .serviceItem h1{
+    font-weight: 800;
+}
+
+.section5{
+    margin-top:20px;
+    width: 90%;
+min-height: 548px;
+justify-self: center;
+align-items: center;
+border: 1px solid rgba(0,0,0,0.1);
+padding: 5px;
+
+}
+.section5 h1{
+ 
+    text-align: center;
+font-size: 50px;
+font-weight: 900;
+text-align: center;
+}
+.section5 .container{
+    position: relative;
+    display: flex;
+    width: 100%;
+height: 226px;
+gap: 20px;
+opacity: 0px;
+
+
+}
+.section5 .container .containerItems{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 15px;
+border:1px solid rgba(0,0,0,0.1)
+
+}
+.section5 .container .containerItems h1{
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+
+
+}
+.containerItems p{
+    
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #666872;
+
+}
+.sectionBreaker{
+    height: 152px;
+    width: 100%;
+    background-image: linear-gradient(
+        90deg,
+        #000000 10%,
+        #4d4c4c 30%,
+         #000000 60%
+    );
+    background-color: var(--color-bg);
+    color: var(--color-text);
+   display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-size: 42px;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    letter-spacing: -0.015em;
+
+}
+
+@media screen and (max-width: 830px) {
+    .header{
+        height:315px;
+    }
+    .header .container{
+        height: 315px;
+        width: 100%;
+        justify-self: center;
+        background-image: linear-gradient(
+            90%,
+            #edf6f7 0%,
+            #2384a7 100%
+        );
+        background-color: var(--color-bg);
+        justify-content: center;
+    }
+
+    .main .section2{
+        width: 100%;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:5px;
+    
+    }
+    .main .section3{
+        width: 100%;
+       padding: 5px;
+       border: 0.5px solid rgba(0,0,0,0.1);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:5px;
+    
+    }
+    .main .section2 .serviceItem{
+        height: 50px;
+    }
+    
+.main .section3 .serviceItem{
+    height:50px;
+    width: inherit;
+    padding: 1px; 
+    text-align: center;   
+    border: 2px solid green;
+}
+.section3 .serviceItem p{
+    width: 100%;
+}
+.main .section2 .serviceItem{
+    height:300px;
+    background-color:white;
+    
+}
+.sectionBreaker{
+    height: 100px;
+}
+.main .section1 .searchContainer{
+
+    width: 100%;
+    justify-self: center;
+    background-color: transparent;
+    font-size: large;
+}
+.main .section1{
+    height: 150px;
+    min-height: 150px;
+}
+.searchContainer .searchInput{
+   
+    width: 100%;
+    background-color: transparent;
+}
+.pageTitle{
+    display: none;
+}
+.containerItem .itemList{
+    
+    width:100%;
+}
+.containerItem .itemList h5{
+    font-weight: 900;
+    font-size: 10px;
+
+}
+.containerItem .itemList p{
+    width: 80%;
+    line-height: 20px;
+    color: #edf6f7bc;
+}
+.header .container .containerItem{
+    position: relative;
+    bottom: -10%;
+    background-color: var(--color-btn);
+    min-height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+}

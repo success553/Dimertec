@@ -1,0 +1,86 @@
+@import '../../vars.css';
+
+
+.section3{
+    margin-top:20px;
+    width: 90%;
+min-height: 548px;
+justify-self: center;
+align-items: center;
+border: 1px solid rgba(0,0,0,0.1);
+padding: 5px;
+
+}
+.section3 h1{
+ 
+    text-align: center;
+font-size: 50px;
+font-weight: 900;
+text-align: center;
+}
+.section3 .container{
+    position: relative;
+    display: flex;
+    width: 100%;
+height: 226px;
+gap: 20px;
+opacity: 0px;
+
+
+}
+.section3 .container .containerItems{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 15px;
+border:1px solid rgba(0,0,0,0.1)
+
+}
+.section3 .container .containerItems h1{
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+
+
+}
+.containerItems p{
+    
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #666872;
+
+}
+
+
+@media  screen and (max-width: 830px) {
+    .section3{
+        width: 100%;
+        min-height: 700px;
+        padding: 2px;
+    }
+    .section3 .container{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .section3 .container .containerItems{
+      width:100%;
+      padding: 10px;
+  }
+  .section3 h1{
+    font-size: 20px;
+ }
+ 
+ 
+} 

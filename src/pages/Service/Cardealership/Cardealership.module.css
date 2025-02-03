@@ -1,0 +1,155 @@
+@import '../../../vars.css';
+
+
+.header{
+    width: 100%;
+     background-color:rgb(1, 5, 10);
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0px;
+     justify-self: center;
+    height: 515px;
+    top: 185px;
+     background-image: url("C:/Users/REPLAY CODE/Desktop/allreact/CODE/MEGAWHEELS/assets/main/serviceHeader.png");
+
+}
+.pageTitle{
+    position: relative;
+   font-weight: 700;
+   z-index: 1;
+   color: white;
+   top: 50%;
+}
+.header .container{
+    height: 715px;
+    width: 100%;
+    justify-self: center;
+    background-image: linear-gradient(
+        90%,
+        #edf6f7 0%,
+        #2384a7 100%
+    );
+    background-color: rgba(0, 0, 0, 0.489);
+    justify-content: center;
+}
+.header .container .containerItem{
+    position: relative;
+    bottom: -50%;
+    background-color: var(--color-btn);
+    height: 200px;
+    width: 90%;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 50px 0px 50px 0px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.containerItem .itemList{
+    
+    width:90%;
+}
+.containerItem .itemList h5{
+    font-weight: 900;
+
+}
+.containerItem .itemList p{
+    width: 80%;
+    line-height: 30px;
+    color: #edf6f7bc;
+}
+.main{
+    background-color: aliceblue;
+}
+.main .section1 {
+    min-height:300px;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    width: 100%;
+
+}
+.main .section1 .searchContainer{
+    border: 0.5px solid rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    justify-self: center;
+    background-color: transparent;
+    font-size: larger;
+}
+.searchContainer .searchInput{
+     outline: none;
+     border: none;
+     color: rgba(0, 0, 0, 0.548);
+     height: 50px;
+
+     width: 700px;
+     background-color: transparent;
+}
+.searchContainer .searchBtn{
+     border-radius: 10px;
+     background-color: var(--color-btn);
+     border:none;
+     outline: none;
+     float: end;
+     color: white;
+     font-weight: 600;
+     height:50px;
+     box-shadow: 0 1px 2em 2px rgba(0,0,0,0.3);
+     cursor: pointer;
+}
+.searchContainer .searchBtn:hover,
+.searchContainer .searchBtn:focus{
+   
+    background-color: var(--color-btn-hover);
+    border:none;
+    outline: none;
+    color: white;
+ 
+}
+.main .titleContainer{
+    height: 150px;
+    align-content: center;
+    text-align: center;
+}
+.main .categoryTitle{
+    text-align: center;
+    font-weight: 800;
+}
+.main .section2{
+    margin-top: 0px;
+    min-height: 400px;
+    width:80%;
+    justify-self: center;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+
+}
+.main .section2 .serviceItem{
+    width:349px;
+    min-height:462px;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-weight:900;
+    display: block;
+    overflow-x: hidden;
+    border-radius: 15px;
+}
+.serviceItem .serviceItemImage{
+    height: auto;
+    width: 100%;
+    border-radius: 10%;
+
+}
+.serviceItem h4{
+    position: relative;
+    bottom:-1px
+}

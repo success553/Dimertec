@@ -1,0 +1,117 @@
+@import "../../vars.css";
+
+.navbar {
+  position: sticky;
+  top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  z-index: 4;
+  background-color: var(--color-bgwhite);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-bg);
+  display: flex;
+  
+}
+.brandLogo{
+   width: 170px;
+}
+
+
+.menuBtn {
+  display: none;
+}
+
+
+.menuItems{
+  font-size: 25px;
+  color: var(--color-bg);
+  text-decoration: none;
+  
+}
+.selectDropDown{
+  font-size:25px;
+  color:var(--color-bg);
+  outline:none;
+  border:none;
+  appearance: menulist; 
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white; 
+gap: 41px;
+  text-transform: none;
+
+
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .brandLogo{
+    width: 100px;
+ }
+ 
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    background-color:rgb(5, 11, 40);
+    display: block;
+    cursor: pointer;
+  }
+  .selectDropDown{
+    color:white;
+    background-color:transparent;
+    outline:none;
+  }
+  
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(178, 31, 28, 0.74) 0%,
+      rgb(2, 10, 20) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .navbarItems a{
+     color:white;
+  }
+  
+  .menuOpen {
+    background-color: black;
+    display: flex;
+    z-index: 1;
+  }
+  .menuItems .navbarItems:hover{
+    border-bottom: 4px solid rgba(223, 218, 218, 0.8);
+    cursor:pointer;
+    
+}
+
+}
+ 
+ 

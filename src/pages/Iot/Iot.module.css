@@ -1,0 +1,141 @@
+@import "../../vars.css";
+
+
+
+.header{
+    width: 100%;
+     background-color:aliceblue;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0px;
+     justify-self: center;
+    height: 515px;
+    top: 185px;
+    overflow: hidden;
+
+}
+.header .container{
+    height: 715px;
+    width: 90%;
+    justify-self: center;
+    background-color: var(--color-bg);
+    justify-content: center;
+}
+
+.main{
+    background-color: aliceblue;
+}
+.main .section1{
+    width: 50%;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+}
+.section1 h1{
+
+font-size: 40px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.section1 p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.main .section2{
+    margin-top: 0px;
+    min-height: 400px;
+    width:90%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    padding: 10px;
+
+}
+.main .section2 .serviceItem{
+    min-height:400px;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+.main .section2 .serviceItem p{
+    width: 70%;
+     color: #3132359a;
+}
+
+.main .section2 .serviceItem h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #121316d7;
+}
+.main .section2 .serviceItem img{
+     width: 100%;
+     height: auto;
+}
+
+
+
+@media screen and (max-width: 830px) {
+   .main .section2{
+        margin-top: 0px;
+        min-height: fit-content;
+        width:100%;
+        justify-self: center;
+        border: 0.5px solid rgba(0,0,0,0.1);
+        background-color: aliceblue;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:10px;
+    
+    }
+    .main .section2 .serviceItem{
+        height:fit-content;
+        background-color:white;
+        border-radius: 10px;
+    }
+    .header .container{
+        height: 315px;
+        width: 100%;
+        justify-self: center;
+        background-image: linear-gradient(
+            90%,
+            #edf6f7 0%,
+            #2384a7 100%
+        );
+        background-color: var(--color-bg);
+        justify-content: center;
+    }
+    .main .section2 .serviceItem p{
+        width: 100%;
+         color: #3132359a;
+    }
+    .main .section1{
+        width: 100%;
+        padding: 5px;
+    }
+    .section1 h1{
+
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        }
+        .section1 p{
+
+            font-size: 18px;
+            line-height: 35px;
+            
+            }
+}

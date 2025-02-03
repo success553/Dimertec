@@ -1,0 +1,36 @@
+@import "../../vars.css";
+
+
+.topNav{
+    min-height: 50px;
+    background-color:  var(--color-btn);
+    width: 100%;
+    color: hsla(0, 50%, 97%, 0.569);
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    gap: 25px;
+
+}
+.topLeft{
+    flex-grow:5;
+}
+.topRight{
+    flex-grow: 1;
+    float: right;
+}
+.topCenter{
+    text-align: center;
+    flex-grow: 2;
+}
+@media screen and (max-width: 830px) {
+  .topNav{
+    padding: 5px;
+    font-size: 7px;
+    text-align: center;
+    min-height: 30px;
+  }    
+    
+}

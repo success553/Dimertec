@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+
+.footer{
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    height: fit-content;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+
+}
+.footerItems{
+    color: rgba(69, 68, 68, 0.483);
+    flex-grow: 1;
+    
+}
+@media screen and (max-width: 830px){
+   .footer{
+    display:block;
+    padding:1px;
+    gap: 1px;
+    border:none;
+    text-align: left;
+    justify-content: left;
+    align-items: left !important;
+    align-content: left;
+
+   }
+   .footerItems{
+    height:inherit;
+    text-align:left;
+    justify-content: left;
+
+   }
+}
