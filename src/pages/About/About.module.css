@@ -3,7 +3,7 @@
 .header{
 
      width: 100%;
-     background-color:aliceblue;
+     background-color:var(--color-btnlight);
      background-repeat: no-repeat;
      background-size: cover;
      opacity: 0px;

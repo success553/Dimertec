@@ -3,6 +3,7 @@
   margin:0;
   padding: 0;
   font-family: sans-serif;
+  /* border:1px solid rgba(0,0,0,0.1); */
 }
 body{
   background-color:aliceblue;
@@ -427,7 +428,9 @@ rgb(157, 24, 24) 0%,
   color: #ffffff;
 
 }  
-
+nav{
+  box-shadow: 0 1px 3em 2px rgba(0, 0, 0, 0.2);
+}
 #next2{
   left:unset;
   right: 250px;
@@ -481,6 +484,7 @@ font-weight: 500;
   border-radius: 50%;
   border: none;
   outline: none;
+  margin: auto;
 }
 .close:hover{
   transform: rotate(360deg) !important;

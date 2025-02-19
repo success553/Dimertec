@@ -3,12 +3,8 @@
 .header{
      height: 566px;
      width: 100%;
-     background-color: black;
-     background-image:linear-gradient(
-        90deg,
-rgb(198, 57, 57) 0%,
-rgb(33, 22, 235) 100%,
-     );
+     background-color:var(--color-btnlight);
+   
      background-repeat: no-repeat;
      background-size: cover;
 
@@ -44,11 +40,13 @@ opacity: 0px;
     background-color: var(--color-btn);
     border-radius:4px;
     cursor: pointer;
+    transition: 1s;
 }
 .welcomeText .qouteBtn:hover{
  
   background-color: #ffffff;
   color:black;
+  transform: translateX(10%);
   
 }
 .welcomeText h1{

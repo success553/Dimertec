@@ -4,12 +4,8 @@
 .header{
      height: 566px;
      width: 100%;
-     background-color: var(--color-bg);
-     background-image:linear-gradient(
-        90deg,
-rgb(198, 57, 57) 0%,
-rgb(33, 22, 235) 100%,
-     );
+     background-color: var(--color-btnlight);
+    
      background-repeat: no-repeat;
      background-size: cover;
      opacity: 0px;
@@ -50,10 +46,12 @@ rgb(33, 22, 235) 100%,
     align-self: center;
     text-align: center;
     left:45px;
+    transition: 1s;
 } .priceQouteBtn:hover{
  
   background-color: white;
   color: black;
+  transform: translateX(10%);
   
 }
 .welcomeText h1{

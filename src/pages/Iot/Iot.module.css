@@ -4,7 +4,7 @@
 
 .header{
     width: 100%;
-     background-color:aliceblue;
+    background-color:var(--color-btnlight);
      background-repeat: no-repeat;
      background-size: cover;
      opacity: 0px;
@@ -12,6 +12,14 @@
     height: 515px;
     top: 185px;
     overflow: hidden;
+
+
+}
+.header{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: white;
 
 }
 .header .container{

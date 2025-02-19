@@ -8,7 +8,9 @@ export const Iot =()=>{
          <>
             
                  <header className={styles.header}>
-                        <div className={styles.container}></div>
+                        <div className={styles.container}>
+                            <h1>Iot Solutions</h1>
+                        </div>
                  </header>
                  <main className={styles.main}>
                      <section className={styles.section1}>
